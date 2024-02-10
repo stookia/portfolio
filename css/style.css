@@ -1,0 +1,195 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "MS Pゴシック";
+  font-size: 16pt;
+  letter-spacing: 0.2em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 44pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+body {
+  width: 100vw;
+  height: 3000px;
+  color: #000;
+  background-color: #fff;
+  background-image: url(/img/top_bg.png);
+  background-position: center;
+  background-position-y: -50px;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+
+.top {
+  display: block;
+  height: 100lvh;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.top > .container {
+  display: block;
+  height: 100vh;
+}
+.top > .container .area_top {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.top > .container .area_top .top_title {
+  width: 66.7%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.top > .container .area_top .top_title > h1 {
+  display: block;
+}
+.top > .container .area_top .top_title .sub_title {
+  display: block;
+  margin-left: auto;
+}
+.top > .container .area_top .top_footer {
+  width: 60vw;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateY(-250%) translateX(-65%);
+}
+.top > .container .area_top .top_footer .scroll {
+  display: block;
+}
+.top > .container .area_top .top_footer .scroll h2 {
+  transform: translateY(-60%) rotateZ(90deg);
+}
+.top > .container .area_top .top_footer .scroll span {
+  display: block;
+  height: 1.5px;
+  width: 200px;
+  background-color: #000;
+  transform: rotateZ(90deg) translateX(25%);
+}
+.top > .container .area_top .top_footer nav {
+  display: inline-block;
+  width: 60%;
+}
+.top > .container .area_top .top_footer nav ul {
+  display: flex;
+}
+.top > .container .area_top .top_footer nav ul:nth-child(1) {
+  padding-left: 30%;
+}
+.top > .container .area_top .top_footer nav ul li + li {
+  margin-left: 30%;
+}
+.top > .container .area_top .top_footer nav ul a {
+  font-size: 16pt;
+}
+
+main {
+  padding-top: 400px;
+}
+
+.portfolio_content {
+  display: block;
+  width: 100%;
+  height: 390px;
+  margin-bottom: 200px;
+}
+.portfolio_content .area_content {
+  display: flex;
+  width: 1040px;
+  height: 390px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfolio_content .area_content dt {
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+.portfolio_content .area_content dd {
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+
+.portfolio_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/img/Free\ Realistic\ Wood\ Frame\ Poster\ Mockup.jpg);
+}
+
+.portfolio_caption {
+  display: block;
+  padding-left: 40px;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.portfolio_caption p:nth-child(1) {
+  font-size: 16pt;
+  margin-bottom: 5px;
+}
+.portfolio_caption p:nth-child(2) {
+  font-size: 24pt;
+  margin-bottom: 10px;
+}
+.portfolio_caption button {
+  display: block;
+  height: 2em;
+  width: 190px;
+  border: 0.75px solid #000;
+  border-radius: 1em;
+  margin-left: 230px;
+  background-color: #fff;
+}
+.portfolio_caption button .btn_text {
+  display: flex;
+  transform: translateY(-3px);
+}
+.portfolio_caption button .btn_text p {
+  font-size: 12pt;
+  margin: 0 0 0 1.5em;
+  transform: translateY(20%);
+}
+.portfolio_caption button .btn_text div .arrow {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0 20px;
+  border-top: 1.5px solid #000;
+  border-right: 1.5px solid #000;
+  transform: rotate(45deg);
+}/*# sourceMappingURL=style.css.map */
